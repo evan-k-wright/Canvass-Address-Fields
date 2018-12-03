@@ -4,4 +4,8 @@ module.exports = {
         username: 'evan@canvass.com',
         password: 'Dvlop-qa',
 
+    //add address field
+        addressFieldTab: 'a[href="/addressFields',
+        addressFieldsTitle: 'h1',
+        
 } 
