@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="addressFields"
+    errors="0" failures="0" hostname="" id="" package="addressFields" skipped="0"
+    tests="1" time="7.909" timestamp="Mon, 03 Dec 2018 16:37:48 GMT">
+  
+    <testcase name="Address Fields" classname="addressFields" time="7.909" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
