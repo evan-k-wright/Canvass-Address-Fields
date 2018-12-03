@@ -59,5 +59,10 @@ module.exports = {
                 .waitForElementVisible('@save', 5000)
                 .click('@save')
                 .waitForElementVisible('@newFieldName', 5000)
+                .click('@newFieldName')
+                .waitForElementVisible('@deleteField', 5000)
+                .click('@deleteField')
+                .api.acceptAlert()
+                addressFields.waitForElementNotPresent('@newFieldName', 5000)
     }
 }
