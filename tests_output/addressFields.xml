@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="addressFields"
+    errors="1" failures="0" hostname="" id="" package="addressFields" skipped="0"
+    tests="1" time="0.01600" timestamp="Mon, 03 Dec 2018 19:17:54 GMT">
+  
+    <testcase name="Address Fields" classname="addressFields" time="0.01600" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Address Fields / Address Fields]:
+
+  Error: submit was not found in &#34;addressFields&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,active,addressFieldTab,addressFieldsTitle,cancel,newAddressField,newName,save,typeSelect,fieldName,typeText
+    at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
+    at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
+    at Object.Address Fields (/Users/evanwright/Desktop/Automation/salesHub/canvass/addressFields/testing/addressFields.js:59:18)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

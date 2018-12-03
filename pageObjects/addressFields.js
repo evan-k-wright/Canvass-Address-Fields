@@ -18,7 +18,37 @@ module.exports = {
             newAddressField: 'a[href="/addressFields/add"]',
             newName: 'input[name="name"]',
             save: 'button[type="submit"]',
-            typeSelect: 'option[value="select"]'
+            typeSelect: 'option[value="select"]',
 
+                //xpath
+                    fieldName: {
+                        selector: '//a[.="Testing"]',
+                        locateStrategy: 'xpath'
+                    },
+
+        //edit cumstom field 
+            active: 'input[name="active"]',
+            save: 'button[type="submit"]',
+            typeText: 'option[value="text"]',
+
+
+                //xpath
+                    fieldName: {
+                        selector: '//a[.="Testing"]',
+                        locateStrategy: 'xpath'
+                    },
+
+                    newFieldName: {
+                        selector: '//a[.="QA Test"]',
+                        locateStrategy: 'xpath'
+                    },
+        //delete custom field
+                    deleteField: 'a[class="delete-item"]',
+                    
+                //xpath
+                    newFieldName: {
+                        selector: '//a[.="QA Test"]',
+                        locateStrategy: 'xpath'
+                    },
     }
 }

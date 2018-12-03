@@ -2,7 +2,7 @@ const data =  require('../sources/data')
 
 module.exports = {
     after: browser => {
-        browser
+        browser.end()
     },
 
     'Address Fields': (browser) => {
@@ -46,6 +46,18 @@ module.exports = {
                 .click('@typeSelect')
                 .click('@active')
                 .waitForElementVisible('@save', 5000)
-
+                .click('@save')
+                .waitForElementVisible('@fieldName', 5000)
+                .click('@fieldName')
+                .waitForElementVisible('@newName', 5000)
+                .waitForElementVisible('@typeSelect', 5000)
+                .waitForElementVisible('@active', 5000)
+                .clearValue('@newName')
+                .setValue('@newName', data.editName)
+                .click('@typeText')
+                .click('@active')
+                .waitForElementVisible('@save', 5000)
+                .click('@save')
+                .waitForElementVisible('@newFieldName', 5000)
     }
 }

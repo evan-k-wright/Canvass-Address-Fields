@@ -5,6 +5,7 @@ module.exports = {
         password: 'Dvlop-qa',
 
     //add new address field
+        editName: 'QA Test',
         fieldName: 'Testing',
 
 } 
