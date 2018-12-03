@@ -11,8 +11,14 @@ module.exports = {
             username: 'input[placeHolder="Username"]',
 
         //add address field
+            active: 'input[name="active"]',
             addressFieldTab: 'a[href="/addressFields',
             addressFieldsTitle: 'h1',
+            cancel: 'a[class="cancel-button"]',
             newAddressField: 'a[href="/addressFields/add"]',
+            newName: 'input[name="name"]',
+            save: 'button[type="submit"]',
+            typeSelect: 'option[value="select"]'
+
     }
 }

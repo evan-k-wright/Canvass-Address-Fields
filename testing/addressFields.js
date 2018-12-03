@@ -26,6 +26,12 @@ module.exports = {
             //add address field
                 .waitForElementVisible('@addressFieldTab', 5000)
                 .click('@addressFieldTab')
+                .waitForElementVisible('@addressFieldsTitle', 5000)
+                .waitForElementVisible('@newAddressField', 5000)
+                .click('@newAddressField')
+                .waitForElementVisible('@newName', 5000)
+                .waitForElementVisible('@typeSelect', 5000)
+                .waitForElementVisible('@active', 5000)
                 
     }
 }
