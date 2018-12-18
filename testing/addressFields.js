@@ -48,6 +48,8 @@ module.exports = {
                 .waitForElementVisible('@save', 5000)
                 .click('@save')
                 .waitForElementVisible('@fieldName', 5000)
+
+            //eidt address field    
                 .click('@fieldName')
                 .waitForElementVisible('@newName', 5000)
                 .waitForElementVisible('@typeSelect', 5000)
@@ -59,6 +61,8 @@ module.exports = {
                 .waitForElementVisible('@save', 5000)
                 .click('@save')
                 .waitForElementVisible('@newFieldName', 5000)
+
+            //delete address field
                 .click('@newFieldName')
                 .waitForElementVisible('@deleteField', 5000)
                 .click('@deleteField')
