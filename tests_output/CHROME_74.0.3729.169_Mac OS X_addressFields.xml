@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="addressFields"
+    errors="0" failures="1" hostname="" id="" package="addressFields" skipped="0"
+    tests="1" time="18.19" timestamp="Wed, 12 Jun 2019 16:15:43 GMT">
+  
+    <testcase name="Address Fields" classname="addressFields" time="18.19" assertions="20">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;//a[.=&#34;Testing&#34;]&gt; to be present for 5000 milliseconds.">    at Object.Address Fields (/Users/evanwright/Desktop/automation/salesHub/canvass/addressFields/testing/addressFields.js:50:18)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
