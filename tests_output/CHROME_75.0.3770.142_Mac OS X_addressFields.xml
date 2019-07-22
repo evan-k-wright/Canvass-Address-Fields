@@ -5,9 +5,9 @@
 
   <testsuite name="addressFields"
     errors="0" failures="0" hostname="" id="" package="addressFields" skipped="0"
-    tests="1" time="20.43" timestamp="Mon, 22 Jul 2019 18:26:28 GMT">
+    tests="1" time="19.85" timestamp="Mon, 22 Jul 2019 20:48:41 GMT">
   
-    <testcase name="Address Fields" classname="addressFields" time="20.43" assertions="27">
+    <testcase name="Address Fields" classname="addressFields" time="19.85" assertions="27">
 
     
 

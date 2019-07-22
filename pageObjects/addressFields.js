@@ -21,10 +21,10 @@ module.exports = {
             typeSelect: 'option[value="select"]',
 
                 //xpath
-                    fieldName: {
-                        selector: '//a[.="Testing"]',
-                        locateStrategy: 'xpath'
-                    },
+                    // fieldName: {
+                    //     selector: '//a[.="Testing"]',
+                    //     locateStrategy: 'xpath'
+                    // },
 
         //edit cumstom field 
             active: 'input[name="active"]',
